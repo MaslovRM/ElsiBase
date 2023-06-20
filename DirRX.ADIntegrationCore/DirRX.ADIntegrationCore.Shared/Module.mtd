@@ -1,0 +1,132 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "10731f77-ea04-4ba8-b1c2-e680f9fa88ad",
+  "Name": "ADIntegrationCore",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "DirRX.ADIntegrationCore.Client",
+  "ClientBaseAssemblyName": "DirRX.ADIntegrationCore.ClientBase",
+  "ClientBaseNamespace": "DirRX.ADIntegrationCore.ClientBase",
+  "ClientNamespace": "DirRX.ADIntegrationCore.Client",
+  "Code": "ADInte1",
+  "CompanyCode": "DirRX",
+  "Cover": {
+    "NameGuid": "f752181d-fd72-4c40-8f74-b4c8f0fdb248",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "6794e6d3-9f4f-40c3-8311-39f77665885b",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "8452c595-6a7a-4932-ba97-0900e05fcfff",
+      "BackgroundPosition": "Stretch"
+    }
+  },
+  "Dependencies": [
+    {
+      "Id": "9880aa2d-a020-4dfd-b8fa-fb5c2a6ce3cd",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    },
+    {
+      "Id": "92491aa6-c4df-4f46-a807-ebdd337bda74",
+      "MaxVersion": "",
+      "MinVersion": "1.1.0.0"
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "DirRX.ADIntegrationCore",
+  "IsVisible": false,
+  "Libraries": [
+    {
+      "NameGuid": "912461ec-911e-4f71-a6ef-efbcfe1e6d23",
+      "Name": "NewtonsoftJson",
+      "Scope": "Both"
+    },
+    {
+      "NameGuid": "05273105-f219-4339-af77-39da05a61d3b",
+      "Name": "ADClient",
+      "Scope": "ClientBase"
+    },
+    {
+      "NameGuid": "af03b000-0342-4478-b275-d15581a09d20",
+      "Name": "ADServer",
+      "Scope": "Server"
+    }
+  ],
+  "Overridden": [
+    "IsVisible"
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "Export",
+      "Parameters": [
+        {
+          "Name": "exportFileName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "FillSyncAttribute",
+      "Parameters": [
+        {
+          "Name": "parameters",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "Import",
+      "Parameters": [
+        {
+          "Name": "importFileName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "Sync",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "DirRX.ADIntegrationCore",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "DirRX.ADIntegrationCore.Server",
+  "ServerNamespace": "DirRX.ADIntegrationCore.Server",
+  "SharedAssemblyName": "DirRX.ADIntegrationCore.Shared",
+  "SharedNamespace": "DirRX.ADIntegrationCore.Shared",
+  "SpecialFolders": [],
+  "Version": "4.3.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}
